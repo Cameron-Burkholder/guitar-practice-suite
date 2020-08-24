@@ -1,0 +1,32 @@
+/* STYLE */
+
+// THEME
+@import "./theme.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: "";
+}
+
+// SET STYLES FOR WRAPPER
+#wrapper {
+  width: 100VW;
+  height: 100VH;
+}
+
+// PRESENTATIONAL COMPONENTS
+@import "./components/presentational/_Navigation.scss";
+@import "./components/presentational/_Header.scss";
+@import "./components/presentational/_Footer.scss";
+@import "./components/presentational/_Loading.scss";
+@import "./components/presentational/_Error.scss";
+
+// FUNCTIONAL COMPONENTS
+
+// PAGES
+@import "./components/pages/_Home.scss";
